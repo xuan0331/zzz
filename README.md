@@ -9,102 +9,69 @@
 
 ## ✨功能模块
 1. 主界面
-提供查询、添加、修改、删除和退出功能入口
+  提供查询、添加、修改、删除和退出功能入口
 
-美观的渐变标题和按钮样式
+  美观的渐变标题和按钮样式
 
-统一的背景图片和图标
+  统一的背景图片和图标
 
 2. 添加模块
-支持添加角色、武器和驱动盘数据
+  支持添加角色、武器和驱动盘数据
 
-动态表单：根据选择类型显示不同字段
+  动态表单：根据选择类型显示不同字段
 
-数据验证和错误提示
+  数据验证和错误提示
 
 3. 查询模块
-可按ID或名称查询
+  可按ID或名称查询
 
-表格展示查询结果
+  表格展示查询结果
 
-角色查询显示图片预览
+  角色查询显示图片预览
 
 4. 修改模块
-根据ID修改已有数据
+  根据ID修改已有数据
 
-动态表单适配不同类型数据
+  动态表单适配不同类型数据
 
-数据验证和操作反馈
+  数据验证和操作反馈
 
 5. 删除模块
-支持按ID或名称删除
+  支持按ID或名称删除
 
 
 技术栈
-JavaFX + mysql
+  JavaFX + mysql
 
-架构: MVC模式
+  架构: MVC模式
 
 数据库设计
-系统使用三个主要表：
+  系统使用三个主要表：
 
-characters - 存储角色数据
+  characters - 存储角色数据
 
-weapons - 存储武器数据
+  weapons - 存储武器数据
 
-artifacts - 存储驱动盘数据
+  artifacts - 存储驱动盘数据
+
 
 ## 🏗️项目结构
 
-src/
-
-├── main/
-
-│   ├── java/
-
-│   │   └── com/
-
-│   │       └── huyuxuan/
-
-│   │           └── zzz/
-
-│   │               ├── AddInterface.java       # 添加界面
-
-│   │               ├── ArtifactDao.java        # 驱动盘数据访问
-
-│   │               ├── ArtifactEntity.java     # 驱动盘实体
-
-│   │               ├── CharacterDao.java       # 角色数据访问
-
-│   │               ├── CharacterEntity.java    # 角色实体
-
-│   │               ├── DatabaseConnection.java # 数据库连接
-
-│   │               ├── DeleteInterface.java    # 删除界面
-
-│   │               ├── Main.java               # 主界面
-
-│   │               ├── ModifyInterface.java    # 修改界面
-
-│   │               ├── QueryInterface.java     # 查询界面
-
-│   │               ├── UIUtils.java            # UI工具类
-
-│   │               ├── WeaponDao.java          # 武器数据访问
-
-│   │               └── WeaponEntity.java       # 武器实体
-
-│   └── resources/
-│       └── com/
-
-│           └── huyuxuan/
-
-│               └── zzz/
-
-│                   ├── xuan.jpg                # 背景图片
-
-│                   └── zzz.png                 # 应用图
-
+AddInterface.java        # 添加界面
+ArtifactDao.java         # 驱动盘数据访问
+ArtifactEntity.java      # 驱动盘实体
+CharacterDao.java        # 角色数据访问
+CharacterEntity.java     # 角色实体
+DatabaseConnection.java # 数据库连接
+DeleteInterface.java    # 删除界面
+Main.java               # 主界面
+ModifyInterface.java    # 修改界面
+QueryInterface.java     # 查询界面
+UIUtils.java            # UI工具类
+WeaponDao.java          # 武器数据访问
+WeaponEntity.java       # 武器实体
+xuan.jpg                # 背景图片
+zzz.png                 # 应用图
 
 
 ## 📚使用说明
