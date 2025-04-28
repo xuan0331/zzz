@@ -125,7 +125,6 @@ Java 21+   MySQL 5.7+  Maven
 
 ![1](Main.png)
 
-
 🤝 参与贡献  
 欢迎通过以下方式改进项目：  
 提交Issue报告问题  
