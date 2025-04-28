@@ -91,6 +91,8 @@ WeaponEntity.java           # 武器实体
 
 xuan.jpg                    # 背景图片
 
+Main.png   #主界面截图
+
 zzz.png                     # 应用图标
 
 zzz.sql zzz.txt      #数据库创建文件
