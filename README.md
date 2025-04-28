@@ -40,12 +40,12 @@
    支持按ID或名称删除
 
 
-技术栈
+📋技术栈
+
   JavaFX + mysql
 
-  架构: MVC模式
 
-数据库设计
+🎯数据库设计
   系统使用三个主要表：
 
   characters - 存储角色数据
@@ -93,12 +93,12 @@ zzz.png                  # 应用图
 环境要求
 Java 21+   MySQL 5.7+  Maven
 
-数据库配置
+🖥️数据库配置
 使用zzz.sql或者zzz.txt创建数据库，并导入数据
 
 修改DatabaseConnection.java中的连接信息
 
-项目特色
+🧩项目特色
 
 美观的UI设计：使用阴影效果和动画
 
