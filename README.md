@@ -58,20 +58,34 @@
 ## 🏗️项目结构
 
 AddInterface.java        # 添加界面
+
 ArtifactDao.java         # 驱动盘数据访问
+
 ArtifactEntity.java      # 驱动盘实体
+
 CharacterDao.java        # 角色数据访问
+
 CharacterEntity.java     # 角色实体
-DatabaseConnection.java # 数据库连接
-DeleteInterface.java    # 删除界面
-Main.java               # 主界面
-ModifyInterface.java    # 修改界面
-QueryInterface.java     # 查询界面
-UIUtils.java            # UI工具类
-WeaponDao.java          # 武器数据访问
-WeaponEntity.java       # 武器实体
-xuan.jpg                # 背景图片
-zzz.png                 # 应用图
+
+DatabaseConnection.java  # 数据库连接
+
+DeleteInterface.java     # 删除界面
+
+Main.java                # 主界面
+
+ModifyInterface.java     # 修改界面
+
+QueryInterface.java      # 查询界面
+
+UIUtils.java             # UI工具类
+
+WeaponDao.java           # 武器数据访问
+
+WeaponEntity.java        # 武器实体
+
+xuan.jpg                 # 背景图片
+
+zzz.png                  # 应用图
 
 
 ## 📚使用说明
